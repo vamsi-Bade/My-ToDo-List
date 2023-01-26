@@ -10,7 +10,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-const mongoDB="mongodb+srv://admin-vamsi:test123@cluster0.fsbdals.mongodb.net/todolistDB";
+const mongoDB="mongodb+srv://admin-vamsi:vamsi123@cluster0.fsbdals.mongodb.net/todolistDB";
 mongoose.set('strictQuery', true);
 
 mongoose.connect(mongoDB,{useNewUrlParser:true});
